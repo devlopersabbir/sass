@@ -1,7 +1,11 @@
-$color: red;
-$size: 40px;
+/* define the variable */
+$bgColor: lightblue;
+$textColor: darkblue;
+$fontSize: 18px;
 
-h1 {
-  color: $color;
-  font-size: $size;
+/* use variable */
+body {
+  background-color: $bgColor;
+  color: $textColor;
+  font-size: $fontSize;
 }
