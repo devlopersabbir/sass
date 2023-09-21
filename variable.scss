@@ -1,0 +1,12 @@
+$bgColor: blue;
+$textColor: white;
+
+h1 {
+  color: $textColor;
+  $bgColor: green !global;
+  background-color: $bgColor;
+}
+
+p {
+  background: $bgColor;
+}
