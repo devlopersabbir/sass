@@ -1,5 +1,19 @@
-$bgColor: green;
+@import "variable";
+
+body {
+  $bgColor: #999999;
+  background: $bgColor;
+}
 
 div {
-  background: $bgColor;
+  color: $bgColor;
+  background: transparent;
+
+  h1 {
+    color: $textColor;
+  }
+
+  &:hover {
+    background: #000;
+  }
 }
